@@ -6,6 +6,16 @@
     margin-left: 10%;
     margin-top: -83px;
 }
+
+.menu a:hover {
+    background-color: gold;
+  }
+
+  .menu2 a:hover{
+      
+      text-decoration: underline;
+  }
+
 h1{
     background-color:black;
     color:azure;
@@ -19,6 +29,7 @@ ul li{
     padding: 0 15px; 
 }
 
+
 li a{
     text-decoration: none;
     font-style: oblique 50deg;
@@ -29,4 +40,68 @@ li a{
     width: 20%; 
     text-decoration: none;
 
+}
+
+.section h2{
+
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.section p{
+    text-align: left;
+    font-style: normal;
+    width: 52%;
+}
+.product {
+    width: 95%;
+    margin: 1%;
+    margin-top: 3%;
+    
+}
+.product tr{
+    width: 95%;
+    margin: 1%;
+    padding: 2%;
+    
+}
+
+.product td {
+    padding-bottom:2%;
+    margin : 10%;
+    border-style: groove;
+    border-color:black ;
+    border-width: initial;
+}
+
+h3{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.product td img{
+    padding-left :8% ;
+    padding-top : 8% ;
+    padding-right :8%; 
+    padding-bottom :5%;
+    width: 50% ;  
+}
+
+.product tr text{
+    padding-left: 3%;
+}
+
+.product tr text1{
+    padding-left: 3%;
+    color: chartreuse;
+}
+
+.product tr img{
+    padding: 0,2%;
+    width: 85% ; 
+}
+
+span {
+    text-decoration:underline;
 }
